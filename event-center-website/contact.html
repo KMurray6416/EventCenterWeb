@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Concert Center - Contact Us</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="logo">Concert Center</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="location.html">Location</a></li>
+        <li><a href="contact.html" class="active">Contact Us</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="container">
+    <header>
+      <h1>Contact Us</h1>
+      <p>Have questions or want to book an event? Fill out the form below and we'll get back to you soon!</p>
+    </header>
+    <form class="contact-form" action="#" method="post" autocomplete="off">
+      <label for="name">Name <span style="color:#ff375b">*</span></label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email <span style="color:#ff375b">*</span></label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message/Inquiry <span style="color:#ff375b">*</span></label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      &copy; 2025 Concert Center. All Rights Reserved.
+    </div>
+  </footer>
+</body>
+</html>
