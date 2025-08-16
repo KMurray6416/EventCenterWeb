@@ -1,4 +1,4 @@
-# Concert Center Website
+# Concert Event Center Website
 
 ## Overview
 This project is a multi-page website for a live music concert venue, built using HTML and CSS. It features a homepage, events listing, food & drinks menu, location info, and a contact form. The design is fully responsive and visually themed for concerts and music lovers.
@@ -32,6 +32,3 @@ This project is a multi-page website for a live music concert venue, built using
 - Submit the contact form with and without filling fields to see validation.
 - Hover over menu/table rows and navigation links for interactive effects.
 
----
-
-**Enjoy your new event center website!**
